@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Plus Jakarta Sans";
+    src: url(/src/assets/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(/src/assets/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+#root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1158.400px;
+    height: 52px;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin: 20px 180px 53px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav-menu {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 21px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #696B66;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-button {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    gap: 12px;
+    width: 212px;
+    height: 52px;
+}
+
+.btn-sign {
+    border-radius: 8px;
+    background-color: #fff;
+    width: 98.4px;
+    height: 50.4px;
+    border: 1px solid #e2e2e1;
+    font-size: 16px;
+}
+
+.btn-sign {
+    border-radius: 8px;
+    background-color: #fff;
+    width: 98.4px;
+    height: 50.4px;
+    border: 1px solid #e2e2e1;
+    font-size: 16px;
+}
+
+.btn-reservasi {
+    border-radius: 8px;
+    background-color: #0077B6;
+    width: 98.4px;
+    height: 50.4px;
+    border: 1px solid transparent;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
